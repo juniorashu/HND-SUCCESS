@@ -6,7 +6,7 @@ class Softwareengineering extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(actions: [Text('holle world')],),
+      appBar: AppBar(actions: const [Text('holle world')],),
     );
   }
 }
